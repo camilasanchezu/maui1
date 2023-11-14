@@ -5,8 +5,7 @@
              Title="ProductoPage">
     <VerticalStackLayout>
         <HorizontalStackLayout
-            BackgroundColor="Blue">
-
+            BackgroundColor="Purple">
             <Image
                  Source="dotnet_bot.png"
                  HeightRequest="50"
@@ -39,12 +38,12 @@
                                 Text="{Binding Nombre}"
                                 VerticalOptions="Start"
                                 FontSize="20"
-                                TextColor="Black"/>
+                                TextColor="Blue"/>
                             <Label
                                 Text="{Binding Cantidad}"
                                 VerticalOptions="End"
                                 FontSize="20"
-                                TextColor="Black"/>
+                                TextColor="Blue"/>
                         </StackLayout>
                         </StackLayout>
                     </ViewCell>
