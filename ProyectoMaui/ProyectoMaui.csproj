@@ -49,7 +49,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\Freddy_1989.jpeg" />
+	  <None Remove="Resources\Images\trench.png" />
+	  <None Remove="Resources\Images\woody_bad.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -7,7 +7,7 @@
         <HorizontalStackLayout
             BackgroundColor="Purple">
             <Image
-                 Source="dotnet_bot.png"
+                 Source="woody_bad.jpg"
                  HeightRequest="50"
                  WidthRequest="100"
                   />
@@ -30,7 +30,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal">
-                            <Image Source="freddy_1989.jpeg"
+                            <Image Source="trench.png"
                                    HeightRequest="50"
                                    WidthRequest="100"/>
                         <StackLayout Orientation="Vertical">
