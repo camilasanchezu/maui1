@@ -15,26 +15,36 @@ namespace ProyectoMaui.Utils
             new Producto()
             {
                 IdProducto = 1,
-                Nombre = "Harina",
-                Descripcion = "Marca Patito",
+                Nombre = "CALM",
+                Descripcion = "5 Seconds of Summer",
                 Cantidad = 20
             },
 
             new Producto()
             {
                 IdProducto = 2,
-                Nombre = "Cepillo",
-                Descripcion = "Marca Patito",
+                Nombre = "Scaled and Icy",
+                Descripcion = "Twenty One Pilots",
                 Cantidad = 15
             },
 
             new Producto()
             {
                 IdProducto = 3,
-                Nombre = "TV",
-                Descripcion = "Marca Sony",
+                Nombre = "Believer",
+                Descripcion = "Imagine Dragons",
                 Cantidad = 2
+            },
+
+            new Producto()
+            {
+                IdProducto = 3,
+                Nombre = "The Maybe Man",
+                Descripcion = "AJR",
+                Cantidad = 27
             }
+
+
         };
 
 
