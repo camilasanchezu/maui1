@@ -6,9 +6,27 @@
     xmlns:local="clr-namespace:ProyectoMaui"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
+    <TabBar>
+        <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate local:HomePage}"
+        Icon="{OnPlatform 'house.png', iOS='house.png', MacCatalyst='house.png'}" />
+
+        <ShellContent
+        Title="Productos"
+        ContentTemplate="{DataTemplate local:ProductoPage}"
+        Icon="{OnPlatform 'world.png', iOS='world.png', MacCatalyst='world.png'}" />
+
+        <ShellContent
+        Title="Nuevo Producto"
+        ContentTemplate="{DataTemplate local:NuevoProductoPage}"
+        Icon="{OnPlatform 'plus.jpg', iOS='plus.jpg', MacCatalyst='plus.jpg'}" />
+    </TabBar>
+
+    <ShellContent
+    Title="Home"
+    ContentTemplate="{DataTemplate local:HomePage}"
+    Route="MainPage" />
+
 
 </Shell>

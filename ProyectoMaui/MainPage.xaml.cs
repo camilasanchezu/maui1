@@ -22,7 +22,7 @@
             SemanticScreenReader.Announce(CounterBtn.Text);
 
 
-            await Navigation.PushAsync(new ProductoPage());
+            //await Navigation.PushAsync(new ProductoPage());
             //await Navigation.PopAsync();//
 
 
