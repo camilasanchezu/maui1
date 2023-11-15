@@ -52,6 +52,7 @@
 	  <None Remove="Resources\Images\house.png" />
 	  <None Remove="Resources\Images\plus.jpg" />
 	  <None Remove="Resources\Images\trench.png" />
+	  <None Remove="Resources\Images\vynil.jpg" />
 	  <None Remove="Resources\Images\woody_bad.jpg" />
 	  <None Remove="Resources\Images\world.png" />
 	</ItemGroup>

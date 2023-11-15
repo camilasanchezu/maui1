@@ -30,7 +30,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Orientation="Horizontal">
-                            <Image Source="trench.png"
+                            <Image Source="vynil.jpg"
                                    HeightRequest="50"
                                    WidthRequest="100"/>
                         <StackLayout Orientation="Vertical">
@@ -38,12 +38,12 @@
                                 Text="{Binding Nombre}"
                                 VerticalOptions="Start"
                                 FontSize="20"
-                                TextColor="Blue"/>
+                                TextColor="Black"/>
                             <Label
                                 Text="{Binding Cantidad}"
                                 VerticalOptions="End"
                                 FontSize="20"
-                                TextColor="Blue"/>
+                                TextColor="Black"/>
                         </StackLayout>
                         </StackLayout>
                     </ViewCell>
