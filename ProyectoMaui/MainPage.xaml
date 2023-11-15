@@ -10,28 +10,28 @@
             VerticalOptions="Center">
 
             <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                Source="woody_bad.jpg"
+                SemanticProperties.Description="Bienvenidos a la tienda de Albums!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello, World!"
+                Text="Camila Sánchez"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Welcome to .NET Multi-platform App UI"
+                Text="Tienda de Música"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                SemanticProperties.Description="Siempre Nueva Música"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
             <Button
                 x:Name="CounterBtn"
                 Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
+                SemanticProperties.Hint="Hola!"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
