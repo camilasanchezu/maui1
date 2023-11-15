@@ -9,7 +9,7 @@
     <TabBar>
         <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:HomePage}"
+        ContentTemplate="{DataTemplate local:MainPage}"
         Icon="{OnPlatform 'house.png', iOS='house.png', MacCatalyst='house.png'}" />
 
         <ShellContent
@@ -25,7 +25,7 @@
 
     <ShellContent
     Title="Home"
-    ContentTemplate="{DataTemplate local:HomePage}"
+    ContentTemplate="{DataTemplate local:MainPage}"
     Route="MainPage" />
 
 
