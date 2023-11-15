@@ -10,7 +10,7 @@ public partial class NuevoProductoPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void OnClickGuardarProducto(object sender, EventArgs e)
+    private async void OnClickGuardarProducto(object sender, EventArgs e)
     {
         int id = Utils.Utils.ListaProducto.Count;
         Utils.Utils.ListaProducto.Add(new Producto
@@ -21,5 +21,7 @@ public partial class NuevoProductoPage : ContentPage
             Cantidad = Int32.Parse(Cantidad.Text),
         }
         );
+        await Navigation.PopAsync();
+
     }
 }

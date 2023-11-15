@@ -15,5 +15,8 @@ public partial class ProductoPage : ContentPage
     {
 		var toast = Toast.Make("On Click Boton Nuevo Producto", ToastDuration.Short, 14);
 		await toast.Show();
+		await Navigation.PushAsync(new NuevoProductoPage());
+
+
     }
 }
