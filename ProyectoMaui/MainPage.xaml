@@ -11,26 +11,26 @@
 
             <Image
                 Source="woody_bad.jpg"
-                SemanticProperties.Description="Bienvenidos a la tienda de Albums!"
+                SemanticProperties.Description="Camila Sánchez"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Camila Sánchez"
+                Text="Bienvenidos a la tienda de Albums!"
                 SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
+                FontSize="30"
                 HorizontalOptions="Center" />
 
             <Label
                 Text="Tienda de Música"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Siempre Nueva Música"
+                SemanticProperties.Description="Vinilos y Cds"
                 FontSize="18"
                 HorizontalOptions="Center" />
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me"
+                Text="Ingresar"
                 SemanticProperties.Hint="Hola!"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />

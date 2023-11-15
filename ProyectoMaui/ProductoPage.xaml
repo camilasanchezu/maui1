@@ -20,7 +20,7 @@
                 HorizontalOptions="Center" />
         </HorizontalStackLayout>
         <Button
-            Text="Click me"
+            Text="Crear Producto"
             FontSize="20"
             HorizontalOptions="Fill" 
             Clicked="OnClickNuevoProducto"/>
