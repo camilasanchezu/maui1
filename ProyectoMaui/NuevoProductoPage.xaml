@@ -6,7 +6,7 @@
     <VerticalStackLayout>
         <TableView>
             <TableRoot>
-                <TableSection Title="Ingrese los datos para un nuevo producto:">
+                <TableSection Title="Ingrese los datos para el producto:">
                     <EntryCell x:Name="Nombre"
                                Placeholder="Nombre"/>
                     <EntryCell x:Name="Cantidad"
@@ -18,6 +18,6 @@
             </TableRoot>
         </TableView>
         <Button Text="Guardar Producto"
-                Clicked="OnClickGuardarProducto"/>
+                Clicked="OnClickGuardarNuevoProducto"/>
     </VerticalStackLayout>
 </ContentPage>

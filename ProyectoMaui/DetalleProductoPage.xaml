@@ -4,7 +4,7 @@
              x:Class="ProductoApp1.DetalleProductoPage"
              Title="DetalleProductoPage">
     <VerticalStackLayout>
-        <Image Source="dotnet_bot.png"
+        <Image Source="vinilos.png"
                HorizontalOptions="Center"
                HeightRequest="200"/>
         <Label x:Name="Nombre"
@@ -31,13 +31,14 @@
                 FontSize="20"
                 Margin="5"
                 HorizontalOptions="FillAndExpand"
-                BackgroundColor="Red"/>
+                TextColor="White"
+                BackgroundColor="Black"/>
             <Button Text="Editar"
                 Clicked="OnClickEditar"
                 FontSize="20"
                 Margin="5"
                 HorizontalOptions="FillAndExpand"
-                TextColor="Black"
+                TextColor="White"
                 BackgroundColor="DeepPink"/>
         </StackLayout>
 
