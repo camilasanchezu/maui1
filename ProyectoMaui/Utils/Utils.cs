@@ -10,7 +10,7 @@ namespace ProyectoMaui.Utils
 {
     class Utils
     {
-        public static ObservableCollection<Producto> ListaProducto = new ObservableCollection<Producto>
+        static public List<Producto> ListaProducto = new List<Producto>()
         {
             new Producto()
             {

@@ -5,23 +5,46 @@ namespace ProyectoMaui;
 
 public partial class NuevoProductoPage : ContentPage
 {
-	public NuevoProductoPage()
+    private Producto _producto;
+    public NuevoProductoPage()
 	{
 		InitializeComponent();
 	}
 
-    private async void OnClickGuardarProducto(object sender, EventArgs e)
+    protected override void OnAppearing()
     {
-        int id = Utils.Utils.ListaProducto.Count;
-        Utils.Utils.ListaProducto.Add(new Producto
+        base.OnAppearing();
+        _producto = BindingContext as Producto;
+        if (_producto != null)
         {
-            IdProducto = id+1,
-            Nombre = Nombre.Text,
-            Descripcion = Descripcion.Text,
-            Cantidad = Int32.Parse(Cantidad.Text),
+            Nombre.Text = _producto.Nombre;
+            Cantidad.Text = _producto.Cantidad.ToString();
+            Descripcion.Text = _producto.Descripcion;
         }
-        );
+    }
+    private async void OnClickGuardarNuevoProducto(object sender, EventArgs e)
+    {
+        if (_producto != null)
+        {
+            _producto.Nombre = Nombre.Text;
+            _producto.Cantidad = Int32.Parse(Cantidad.Text);
+            _producto.Descripcion = Descripcion.Text;
+        }
+        else
+        {
+
+            Producto producto = new Producto
+            {
+                IdProducto = 0,
+                Nombre = Nombre.Text,
+                Descripcion = Descripcion.Text,
+                Cantidad = Int32.Parse(Cantidad.Text)
+            };
+
+            Utils.Utils.ListaProducto.Add(producto);
+        }
         await Navigation.PopAsync();
 
     }
+
 }
